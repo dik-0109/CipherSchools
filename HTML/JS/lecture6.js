@@ -56,18 +56,38 @@
 // const myCar1 = new car("mercedes",2022);
 // const myCar2 = new car("proche",2021);
 // console.log(myCar1,myCar2);
-const myFunction = ()=>{
-return new Promise((resolve, reject)=>{
-    setTimeout(()=>{
-        console.log("This is inside promise");
-        resolve();
-    }, 2000);
-    });
-}
-myFunction()
-.then(()=>{
-    console.log("Resolved");
-})
-.catch(()=>{
-    console.error("Rejected");
-})
+// const myFunction = ()=>{
+// return new Promise((resolve, reject)=>{
+//     setTimeout(()=>{
+//         console.log("This is inside promise");
+//         resolve();
+//     }, 2000);
+//     });
+// }
+// myFunction()
+// .then(()=>{
+//     console.log("Resolved");
+// })
+// .catch(()=>{
+//     console.error("Rejected");
+// })
+// const person = {
+//     firstName : "Diksha",
+//     lastName : "Lanjewar",
+//     age : 20,
+//     eyeColor : "brown",
+// };
+// let id = Symbol("id");
+// person[id] = 140111;
+// console.log(person);
+// const addTwoNumbers = (a,b =10) => a + b;
+// console.log(addTwoNumbers(10));
+// const addTwoNumbers = (...args) => {
+//     // console.log(args);
+//     let sum = 0 ;
+//     for (let arg of args){
+//         sum +=arg;
+//     }
+//     return sum;
+// };
+// console.log(addTwoNumbers(10,14,16,22,1,45));
