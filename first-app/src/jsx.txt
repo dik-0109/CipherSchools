@@ -1,0 +1,5 @@
+1.jsx looks and behaves like html
+2.jsx can contain 2 things :
+a. HTML tags
+b. React components
+3.jsx allows us to write js codes
